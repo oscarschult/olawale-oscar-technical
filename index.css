@@ -1,0 +1,18 @@
+body{
+    display: flex;
+}
+
+#main-doc{
+    padding: 0 40px;
+}
+
+a{
+    display: block;
+    padding: 10px;
+}
+
+@media (max-width: 572px) {
+    body{
+        display: block;
+    }
+}
